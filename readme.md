@@ -2,6 +2,8 @@
 
 	**NOTE: EDIT FOR CUSTOMFILTERS**
 
+- EXAMPLE FILTER
+
 ```js
 const delay = require('delay');
 const chalk = require('chalk');
@@ -36,5 +38,19 @@ module.exports = {
         msg.edit('', vaporwaved);
             console.log(chalk.magenta(`  [Command]: Vaporwave used by ${message.author.tag} from ${message.guild.name}`));
    }
+};
+```
+- CONFIG FILTER
+
+```js
+module.exports = {
+    'vaporwave': {
+        equalizer: [
+            { band: 1, gain: 0.3 },
+            { band: 0, gain: 0.3 },
+        ],
+        timescale: { pitch: 0.5 },
+        tremolo: { depth: 0.3, frequency: 14 },
+    },
 };
 ```

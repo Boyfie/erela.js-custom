@@ -1,4 +1,4 @@
-#THIS ERELA.JS USE FOR CUSTOM LAVALINK
+## THIS ERELA.JS USE FOR CUSTOM LAVALINK
 
 - FORK FROM: [Thank for erela.js](https://github.com/MenuDocs/erela.js)
 
@@ -8,7 +8,7 @@
 npm i github:Adivise/erela.js-custom
 `
 
-#Package.json:
+## Package.json:
 
 ```json
 {
@@ -19,7 +19,7 @@ npm i github:Adivise/erela.js-custom
 }
 ```
 
-#Example NightCore:
+## Example NightCore:
 ```js
 player.setFilter('filters', {
         equalizer: [
